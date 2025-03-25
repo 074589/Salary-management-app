@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome, <span id="user-name"></span></h1>
+    <h2>Salary Calculator</h2>
+    
+    <label for="salary">Monthly Salary:</label>
+    <input type="number" id="salary" placeholder="Enter Salary">
+
+    <label for="days-worked">Days Worked:</label>
+    <input type="number" id="days-worked" placeholder="Days Present">
+
+    <label for="advance">Advance Taken:</label>
+    <input type="number" id="advance" placeholder="Enter Advance">
+
+    <button onclick="calculateSalary()">Calculate Salary</button>
+
+    <h3>Final Salary: ₹<span id="final-salary">0</span></h3>
+
+    <script src="script.js"></script>
+</body>
+</html>
